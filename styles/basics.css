@@ -6,6 +6,7 @@
     --black: #282623;
     --off-white: #FAF8F7;
     --white: #FFFFFF;
+    --gray: #757575;
 }
 
 *{
@@ -17,4 +18,5 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', 'sans-serif';
+    scroll-behavior: smooth;
 }

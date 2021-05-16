@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="./styles/index.css"/>
+        <link rel="stylesheet" href="./styles/index.tablet.css" media="(min-width: 930px)">
     </head>
     <body>
         <header>
@@ -18,7 +19,7 @@
                 <p>
                     Batabit ayuda a navegar entre los diferentes precios y tendencias.
                 </p>
-                <a class="header--button" href="#">Conoce Nuestros Planes <span></span></a>
+                <a class="header--button" href="#plans">Conoce Nuestros Planes <span></span></a>
             </div>
         </header>
         <main>
@@ -61,10 +62,99 @@
                 </section>
             </section>
             <!--End of Exchange-->
-            <section></section>
-            <section></section>
-            <section></section>
+            <!--Products-->
+            <section class="main-product-detail">
+                <span></span>
+                <div class="product-detail--title">
+                    <h2>Creamos un producto sin comparación.</h2>
+                    <p>Confiable y diseñado para su uso diario.</p>
+                </div>
+                <section class="product-card-container">
+                    <article class="product-detail--card">
+                        <span class="clock"></span>
+                        <p class="product--card-title">Tiempo real</p>
+                        <p class="product--card-body">Nuestra API toma información minuto a minuto sobre las tasas que mas determinan el comportamiento.</p>
+                    </article>
+                    <article class="product-detail--card">
+                        <span class="eye"></span>
+                        <p class="product--card-title">No hay tasas escondidas</p>
+                        <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muiestra el costo real de lo que estás adquiriendo.</p>
+                    </article>
+                    <article class="product-detail--card">
+                        <span class="dollar"></span>
+                        <p class="product--card-title">Compara monedas</p>
+                        <p class="product--card-body">Compara monedas en tiempo real al segundo de realizar la compra, ten toda la ventaja para tus decisiones.</p>
+                    </article>
+                    <article class="product-detail--card">
+                        <span class="check"></span>
+                        <p class="product--card-title">Información confiable</p>
+                        <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                    </article>
+                </section>
+            </section>
+            <!--End of Products-->
+            <!--All rounder-->
+            <section class="bitcoin-img-container">
+                <h2>Conócelo hoy</h2>
+            </section>
+            <!--End of All rounder-->
+            <!--Plans-->
+            <section id="plans" class="main-plans-container">
+                <div class="plans--title">
+                    <h2>Escoge el plan que mejor se aguste a ti.</h2>
+                    <p>Cualquier plan te da accesso completo a nuestra plataforma.</p>
+                </div>
+                <section class="plans-container--slider">
+                    <article class="plans-container--card">
+                        <p class="basic">Básico</p>
+                        <div class="plan-info-container">
+                            <h3 class="plan-card--title">Pago Mesual</h3>
+                            <p class="plan-card--price">$19</p>
+                            <p class="plan-card--saving">Pagas mensualmente con accesos limitados</p>
+                            <button class="plan-card--call-to-action">Escoger este<span></span></button>
+                        </div>
+                    </article>
+
+                    <article class="plans-container--card">
+                        <p class="recommended">Recomendado</p>
+                        <div class="plan-info-container">
+                            <h3 class="plan-card--title">Pago Anual</h3>
+                            <p class="plan-card--price">$99</p>
+                            <p class="plan-card--saving">* Ahorras $129 comparado al plan mensual</p>
+                            <button class="plan-card--call-to-action">Escoger este<span></span></button>
+                        </div>
+                    </article>
+
+                    <article class="plans-container--card">
+                        <p class="expert">Experto</p>
+                        <div class="plan-info-container">
+                            <h3 class="plan-card--title">Pago Experto</h3>
+                            <p class="plan-card--price">$299</p>
+                            <p class="plan-card--saving">Obtén información privilegiada antes que nadie</p>
+                            <button class="plan-card--call-to-action">Escoger este<span></span></button>
+                        </div>
+                    </article>
+                </section>
+            </section>
+            <!--End of Plans-->
         </main>
-        <footer></footer>
+        <footer>
+            <section class="left">
+                <ul>
+                    <li>
+                        <a href="#">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="#">Crunchbase</a>
+                    </li>
+                    <li>
+                        <a href="#">Hackernews</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="right">
+                <img src="./assets/icons/batabit.svg" alt="Logo de Batabit 2021">
+            </section>
+        </footer>
     </body>
 </html>
